@@ -1,4 +1,6 @@
+import "./App.css";
 import { useState } from "react";
+
 import languages from "../languages";
 
 function App() {
