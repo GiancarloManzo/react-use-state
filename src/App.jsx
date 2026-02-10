@@ -13,6 +13,7 @@ function App() {
           <button
             key={language.id}
             onClick={() => setSelectedLanguage(language)}
+            className={selectedLanguage?.id === language.id ? "active" : ""}
           >
             {language.title}
           </button>

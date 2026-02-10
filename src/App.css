@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
